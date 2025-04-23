@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.top {
+  width: 80%;
+  margin: auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.top .ttex {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.top .ttex p {
+  font-size: 24px;
+  color: #2F2F2F;
+  line-height: 100%;
+  color: #3A5F56;
+}
+.top button {
+  font-size: 20px;
+  padding: 15px 20px;
+  background-color: #2F2F2F;
+  color: white;
+  border-radius: 30px;
+  background-color: #3A5F56;
+  color: white;
+}
+
+.p1 {
+  width: 90%;
+  margin: auto;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p1 .l {
+  width: 50%;
+}
+.p1 .l h2 {
+  font-size: 38px;
+  color: black;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.p1 .l p {
+  font-size: 24px;
+  color: #2F2F2F;
+  line-height: 100%;
+}
+.p1 .l button {
+  font-size: 20px;
+  padding: 15px 20px;
+  background-color: #2F2F2F;
+  color: white;
+  border-radius: 30px;
+  background-color: #2F2F2F;
+  color: white;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 38px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+p {
+  font-size: 24px;
+  color: #2F2F2F;
+  line-height: 100%;
+  text-align: center;
+}
+
+.bud {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.bud button {
+  font-size: 20px;
+  padding: 15px 20px;
+  background-color: #2F2F2F;
+  color: white;
+  border-radius: 30px;
+}/*# sourceMappingURL=les.css.map */

@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@mixin tex(){
+    font-size: 24px;
+    color: #2F2F2F;
+    line-height: 100%;
+}
+@mixin btn(){
+    font-size: 20px;
+    padding: 15px 20px;
+    background-color:#2F2F2F;
+    color: white;
+    border-radius: 30px;
+}
+@mixin hh(){
+    font-size: 38px;
+    color: black;
+    font-weight: 700;
+}
+
+
+    .top{
+        width: 80%;
+        margin: auto;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+       
+        .ttex{
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+     
+       
+        p{
+            @include tex();
+            color:  #3A5F56
+        }
+        
+    }
+    button{
+        @include btn();
+        background-color: #3A5F56;
+        color: white;
+       
+    }
+    }
+    .p1{
+        width: 90%;
+        margin: auto;
+        height: 150vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+        .l{
+            width: 50%;
+          
+            h2{
+                @include hh;
+                font-size: 50px;
+                margin-top: 0;
+                margin-bottom: 0;
+                
+                
+            }
+            p{
+                @include tex();
+                
+            }
+            button{
+                @include btn();
+                background-color: #2F2F2F;
+                color: white;
+                margin-top: 40px;
+            }
+        }
+    }
+    h2{
+        @include hh();
+        text-align: center;
+        margin-bottom: 35px;
+      
+    }
+    p{
+        @include tex();
+        text-align: center;
+    }
+    .bud{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        button{
+            @include btn();
+        }
+    }
+  
+    
+    
+    
+   
